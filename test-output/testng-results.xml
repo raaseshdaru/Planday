@@ -1,93 +1,81 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="7" passed="7" failed="0" skipped="0">
+<testng-results ignored="0" total="6" passed="6" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2022-06-19T21:40:22 CEST" name="Default suite" finished-at="2022-06-19T21:41:53 CEST" duration-ms="90988">
+  <suite started-at="2022-06-20T00:44:05 CEST" name="Default suite" finished-at="2022-06-20T00:45:05 CEST" duration-ms="59326">
     <groups>
     </groups>
-    <test started-at="2022-06-19T21:40:22 CEST" name="Default test" finished-at="2022-06-19T21:41:53 CEST" duration-ms="90988">
+    <test started-at="2022-06-20T00:44:05 CEST" name="Default test" finished-at="2022-06-20T00:45:05 CEST" duration-ms="59326">
       <class name="plandaytest.Testcase">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:plandaytest.Testcase@6818d900]" started-at="2022-06-19T21:40:22 CEST" name="setUp" finished-at="2022-06-19T21:40:36 CEST" duration-ms="13649" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:plandaytest.Testcase@4a68135e]" started-at="2022-06-20T00:44:06 CEST" name="setUp" finished-at="2022-06-20T00:44:17 CEST" duration-ms="11686" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="test1NavigateandVeryfy()[pri:0, instance:plandaytest.Testcase@6818d900]" started-at="2022-06-19T21:40:36 CEST" name="test1NavigateandVeryfy" finished-at="2022-06-19T21:40:37 CEST" duration-ms="364" status="PASS">
+        <test-method signature="CountAndAssertNumberOfEmployees()[pri:0, instance:plandaytest.Testcase@4a68135e]" started-at="2022-06-20T00:44:18 CEST" name="CountAndAssertNumberOfEmployees" description="Test 6 Count and seert that the number of employees displayed is 3" finished-at="2022-06-20T00:44:24 CEST" duration-ms="6596" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- test1NavigateandVeryfy -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:plandaytest.Testcase@6818d900]" started-at="2022-06-19T21:40:37 CEST" name="tearDown" finished-at="2022-06-19T21:40:37 CEST" duration-ms="338" status="PASS">
+        </test-method> <!-- CountAndAssertNumberOfEmployees -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:plandaytest.Testcase@4a68135e]" started-at="2022-06-20T00:44:24 CEST" name="tearDown" finished-at="2022-06-20T00:44:25 CEST" duration-ms="496" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:plandaytest.Testcase@6818d900]" started-at="2022-06-19T21:40:37 CEST" name="setUp" finished-at="2022-06-19T21:40:43 CEST" duration-ms="6031" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:plandaytest.Testcase@4a68135e]" started-at="2022-06-20T00:44:25 CEST" name="setUp" finished-at="2022-06-20T00:44:30 CEST" duration-ms="4835" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="test2VerifyError()[pri:0, instance:plandaytest.Testcase@6818d900]" started-at="2022-06-19T21:40:43 CEST" name="test2VerifyError" finished-at="2022-06-19T21:40:44 CEST" duration-ms="1030" status="PASS">
+        <test-method signature="VerifyIncorrectLoginCredentialsError()[pri:0, instance:plandaytest.Testcase@4a68135e]" started-at="2022-06-20T00:44:30 CEST" name="VerifyIncorrectLoginCredentialsError" description="Test 2 Verify if invalid login credentials produces validation message" finished-at="2022-06-20T00:44:30 CEST" duration-ms="708" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- test2VerifyError -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:plandaytest.Testcase@6818d900]" started-at="2022-06-19T21:40:44 CEST" name="tearDown" finished-at="2022-06-19T21:40:44 CEST" duration-ms="273" status="PASS">
+        </test-method> <!-- VerifyIncorrectLoginCredentialsError -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:plandaytest.Testcase@4a68135e]" started-at="2022-06-20T00:44:30 CEST" name="tearDown" finished-at="2022-06-20T00:44:31 CEST" duration-ms="233" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:plandaytest.Testcase@6818d900]" started-at="2022-06-19T21:40:44 CEST" name="setUp" finished-at="2022-06-19T21:40:50 CEST" duration-ms="5938" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:plandaytest.Testcase@4a68135e]" started-at="2022-06-20T00:44:31 CEST" name="setUp" finished-at="2022-06-20T00:44:35 CEST" duration-ms="4842" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="test3Login()[pri:0, instance:plandaytest.Testcase@6818d900]" started-at="2022-06-19T21:40:50 CEST" name="test3Login" finished-at="2022-06-19T21:40:52 CEST" duration-ms="1133" status="PASS">
+        <test-method signature="VerifyLogin()[pri:0, instance:plandaytest.Testcase@4a68135e]" started-at="2022-06-20T00:44:35 CEST" name="VerifyLogin" description="Test 3 Verify successful login" finished-at="2022-06-20T00:44:36 CEST" duration-ms="951" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- test3Login -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:plandaytest.Testcase@6818d900]" started-at="2022-06-19T21:40:52 CEST" name="tearDown" finished-at="2022-06-19T21:40:52 CEST" duration-ms="235" status="PASS">
+        </test-method> <!-- VerifyLogin -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:plandaytest.Testcase@4a68135e]" started-at="2022-06-20T00:44:36 CEST" name="tearDown" finished-at="2022-06-20T00:44:37 CEST" duration-ms="271" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:plandaytest.Testcase@6818d900]" started-at="2022-06-19T21:40:52 CEST" name="setUp" finished-at="2022-06-19T21:40:57 CEST" duration-ms="5426" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:plandaytest.Testcase@4a68135e]" started-at="2022-06-20T00:44:37 CEST" name="setUp" finished-at="2022-06-20T00:44:41 CEST" duration-ms="4462" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="test4and5NavigateShcedulepageandverify()[pri:0, instance:plandaytest.Testcase@6818d900]" started-at="2022-06-19T21:40:57 CEST" name="test4and5NavigateShcedulepageandverify" finished-at="2022-06-19T21:41:02 CEST" duration-ms="4494" status="PASS">
+        <test-method signature="VerifyLoginFieldsAvailability()[pri:0, instance:plandaytest.Testcase@4a68135e]" started-at="2022-06-20T00:44:41 CEST" name="VerifyLoginFieldsAvailability" description="Test 1 Verifies if username, password and login button fields are displayed" finished-at="2022-06-20T00:44:41 CEST" duration-ms="206" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- test4and5NavigateShcedulepageandverify -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:plandaytest.Testcase@6818d900]" started-at="2022-06-19T21:41:02 CEST" name="tearDown" finished-at="2022-06-19T21:41:02 CEST" duration-ms="350" status="PASS">
+        </test-method> <!-- VerifyLoginFieldsAvailability -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:plandaytest.Testcase@4a68135e]" started-at="2022-06-20T00:44:41 CEST" name="tearDown" finished-at="2022-06-20T00:44:42 CEST" duration-ms="229" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:plandaytest.Testcase@6818d900]" started-at="2022-06-19T21:41:02 CEST" name="setUp" finished-at="2022-06-19T21:41:08 CEST" duration-ms="5605" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:plandaytest.Testcase@4a68135e]" started-at="2022-06-20T00:44:42 CEST" name="setUp" finished-at="2022-06-20T00:44:46 CEST" duration-ms="4193" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="test6countandassertnumberofemployee()[pri:0, instance:plandaytest.Testcase@6818d900]" started-at="2022-06-19T21:41:08 CEST" name="test6countandassertnumberofemployee" finished-at="2022-06-19T21:41:17 CEST" duration-ms="9539" status="PASS">
+        <test-method signature="VerifyRedirectUrlContainsSchedule()[pri:0, instance:plandaytest.Testcase@4a68135e]" started-at="2022-06-20T00:44:46 CEST" name="VerifyRedirectUrlContainsSchedule" description="Test 4,5 Verify click on schdeule redirects to the correct /schedule page" finished-at="2022-06-20T00:44:49 CEST" duration-ms="3030" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- test6countandassertnumberofemployee -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:plandaytest.Testcase@6818d900]" started-at="2022-06-19T21:41:17 CEST" name="tearDown" finished-at="2022-06-19T21:41:18 CEST" duration-ms="323" status="PASS">
+        </test-method> <!-- VerifyRedirectUrlContainsSchedule -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:plandaytest.Testcase@4a68135e]" started-at="2022-06-20T00:44:49 CEST" name="tearDown" finished-at="2022-06-20T00:44:49 CEST" duration-ms="312" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:plandaytest.Testcase@6818d900]" started-at="2022-06-19T21:41:18 CEST" name="setUp" finished-at="2022-06-19T21:41:26 CEST" duration-ms="7947" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:plandaytest.Testcase@4a68135e]" started-at="2022-06-20T00:44:49 CEST" name="setUp" finished-at="2022-06-20T00:44:53 CEST" duration-ms="4341" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="test7and8createashiftandfilltime()[pri:0, instance:plandaytest.Testcase@6818d900]" started-at="2022-06-19T21:41:26 CEST" name="test7and8createashiftandfilltime" finished-at="2022-06-19T21:41:38 CEST" duration-ms="12963" status="PASS">
+        <test-method signature="VerifyShiftShownOnScheduleGrid()[pri:0, instance:plandaytest.Testcase@4a68135e]" started-at="2022-06-20T00:44:53 CEST" name="VerifyShiftShownOnScheduleGrid" description="Test 7,8, 9 Verify shift created is visible on the schedule grid" finished-at="2022-06-20T00:45:04 CEST" duration-ms="10945" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- test7and8createashiftandfilltime -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:plandaytest.Testcase@6818d900]" started-at="2022-06-19T21:41:39 CEST" name="tearDown" finished-at="2022-06-19T21:41:39 CEST" duration-ms="319" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:plandaytest.Testcase@6818d900]" started-at="2022-06-19T21:41:39 CEST" name="setUp" finished-at="2022-06-19T21:41:44 CEST" duration-ms="5342" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method signature="test9assertcreatedshift()[pri:0, instance:plandaytest.Testcase@6818d900]" started-at="2022-06-19T21:41:44 CEST" name="test9assertcreatedshift" finished-at="2022-06-19T21:41:53 CEST" duration-ms="8565" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- test9assertcreatedshift -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:plandaytest.Testcase@6818d900]" started-at="2022-06-19T21:41:53 CEST" name="tearDown" finished-at="2022-06-19T21:41:53 CEST" duration-ms="353" status="PASS">
+        </test-method> <!-- VerifyShiftShownOnScheduleGrid -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:plandaytest.Testcase@4a68135e]" started-at="2022-06-20T00:45:04 CEST" name="tearDown" finished-at="2022-06-20T00:45:05 CEST" duration-ms="378" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->

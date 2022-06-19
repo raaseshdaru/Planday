@@ -7,7 +7,7 @@
         <methods>
           <include name="setUp"/>
           <include name="tearDown"/>
-          <include name="test7and8createashiftandfilltime"/>
+          <include name="VerifyShiftShownOnScheduleGrid"/>
         </methods>
       </class> <!-- plandaytest.Testcase -->
     </classes>
