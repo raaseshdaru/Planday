@@ -1,0 +1,1 @@
+{"uuid":"7c31db1f-ab13-412b-884f-ef6a3f2719e0","name":"plandaytest.Testcase.setUp","children":["f2130ac3-8396-42fa-a5fd-d4ce2a8fccf0"],"description":"","befores":[{"name":"setUp","status":"passed","stage":"finished","description":"","steps":[],"attachments":[],"parameters":[],"start":1655667644951,"stop":1655667650888}],"afters":[],"start":1655667644951,"stop":1655667650889}
